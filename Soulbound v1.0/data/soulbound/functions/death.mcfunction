@@ -1,0 +1,2 @@
+execute at @e[scores={soul_deathcount=1}] run teleport @e[type=item,nbt={Item:{Count:1b,tag:{display:{Lore:["Soulbound"]}}}}] @p
+execute at @e[scores={soul_deathcount=1}] run scoreboard players set @p soul_deathcount 0

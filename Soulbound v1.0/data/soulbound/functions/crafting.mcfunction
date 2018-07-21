@@ -1,0 +1,4 @@
+execute at @e[type=item,nbt={OnGround:1b}] if block ~ ~-1 ~ minecraft:diamond_block if block ~-1 ~-1 ~ minecraft:obsidian if block ~1 ~-1 ~ minecraft:obsidian if block ~ ~-1 ~1 minecraft:obsidian if block ~ ~-1 ~-1 minecraft:obsidian run tag @e[type=item,nbt={OnGround:1b}] add soul_dsword
+execute at @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:nether_star",Count:1b}}] if block ~ ~-1 ~ minecraft:diamond_block if block ~-1 ~-1 ~ minecraft:obsidian if block ~1 ~-1 ~ minecraft:obsidian if block ~ ~-1 ~1 minecraft:obsidian if block ~ ~-1 ~-1 minecraft:obsidian run tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:nether_star",Count:1b}}] add soul_nstar
+execute at @e[tag=soul_dsword] if entity @e[tag=soul_nstar,distance=..1] run data merge entity @e[tag=soul_dsword,sort=nearest,limit=1] {Item:{Count:1b,tag:{display:{Lore:["Soulbound"]}}}}
+execute at @e[tag=soul_dsword] if entity @e[tag=soul_nstar,distance=..1] run kill @e[type=item,tag=soul_nstar] 
