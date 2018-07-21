@@ -12,9 +12,7 @@ HOW TO USE:
 To start, you will need to kill the wither and obtain the nether star. 1 nether star is required per item.
 
 You need to drop any item and a nether star together on top of this structure:
-<p align="center">
-  <img src="https://imgur.com/fkszvYx" width="350" title="hover text">
-</p>
+![structure](https://i.imgur.com/fkszvYx.png)
 
 Then the nether star will disapear and the item will become 'soulbound'
 A soulbound item will reappear in your inventory after you die, so you never lose it.
