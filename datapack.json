@@ -1,0 +1,14 @@
+{
+  "id":"soulbound",
+  "type":"datapack",
+  "version":"1.0",
+  "title":"Soulbound Items",
+  "logo":"https://i.imgur.com/NMjYWsh.png",
+  "creator": "TheBMan",
+  "website": "https://github.com/TheBMan-Datapacks/Soulbound",
+  "files": {
+    "1.0": "https://github.com/TheBMan-Datapacks/Soulbound/blob/master/Soulbound%20v1.0.zip?raw=true"
+  },
+  "description":"https://raw.githubusercontent.com/TheBMan-Datapacks/Soulbound/master/README.md",
+
+}
